@@ -1,0 +1,13 @@
+# Define the module name (must match your .c file name)
+obj-m += neural_gov.o
+
+# Point to the local kernel headers (Standard for Termux/Native compile)
+KDIR ?= /lib/modules/$(shell uname -r)/build
+
+# The build command
+all:
+	make -C $(KDIR) M=$(PWD) modules
+
+# The cleanup command
+clean:
+	make -C $(KDIR) M=$(PWD) clean
