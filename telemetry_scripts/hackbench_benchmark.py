@@ -29,8 +29,6 @@ def run_stress_test(g_name):
     
     for i in range(1, runs + 1):
         print(f"  -> Crunching run {i}/{runs}... (Please wait)")
-        
-        # Reduced from 50/10000 to 10/1000 for realistic mobile testing
         test_cmd = "adb shell \"su -c 'LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib /data/local/tmp/hackbench 10 thread 1000'\""
         out_text = send_cmd(test_cmd)
         

@@ -191,8 +191,6 @@ def run_benchmark(gov, run_num):
                 run_cmd("adb shell input tap 10 10")
             
             time.sleep(POLL_RATE)
-            
-    # The 5 minutes are up. Capture the graph right before killing the app.
     take_screenshot(gov, run_num)
     
     print("[TEST] Run complete. Force killing Skynet to halt CPU load...")
@@ -200,7 +198,6 @@ def run_benchmark(gov, run_num):
 
 def main():
     print("Initializing Skynet Throttle Automation Lab...")
-    
     # Ensure app is dead before we start
     run_cmd(f"adb shell am force-stop {APP_PACKAGE}")
     
@@ -217,7 +214,6 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        # Emergency abort: kill the app so the CPU stops burning
         run_cmd(f"adb shell am force-stop {APP_PACKAGE}")
         run_cmd("adb shell svc power stayon false")
         print("\n\n[!] Test aborted by user. Skynet killed and screen locks released.")

@@ -67,7 +67,7 @@ cat /sys/devices/system/cpu/cpufreq/policy0/scaling_available_governors
 ## Acknowledgments & Credits
 While the Neural Governor is an independent, custom-built Loadable Kernel Module, compiling it natively for the Poco F6 (Snapdragon 8s Gen 3) requires specific hardware configurations. 
 
-Massive thanks to the **Peridot Dev** open-source community for maintaining the device tree and kernel source that made the compilation and deployment of this research possible.
+Massive thanks to the **peridot-dev** open-source community for maintaining the device tree and kernel source that made the compilation and deployment of this research possible.
 
 ---
 *Developed by Siva Subramanyam Ghanta *
