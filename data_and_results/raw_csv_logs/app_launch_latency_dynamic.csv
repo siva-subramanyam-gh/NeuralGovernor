@@ -30,11 +30,6 @@ neural,com.aurora.store,3,425
 neural,com.aurora.store,4,414
 neural,com.aurora.store,5,464
 neural,com.google.android.apps.bard,1,1329
-neural,com.tufan.bomber,1,957
-neural,com.tufan.bomber,2,104
-neural,com.tufan.bomber,3,86
-neural,com.tufan.bomber,4,79
-neural,com.tufan.bomber,5,78
 neural,com.primatelabs.geekbench6,1,923
 neural,com.primatelabs.geekbench6,2,993
 neural,com.primatelabs.geekbench6,3,1023
@@ -55,11 +50,6 @@ neural,org.proninyaroslav.libretorrent,2,593
 neural,org.proninyaroslav.libretorrent,3,667
 neural,org.proninyaroslav.libretorrent,4,631
 neural,org.proninyaroslav.libretorrent,5,608
-neural,com.lagradost.cloudstream3,1,762
-neural,com.lagradost.cloudstream3,2,660
-neural,com.lagradost.cloudstream3,3,653
-neural,com.lagradost.cloudstream3,4,644
-neural,com.lagradost.cloudstream3,5,622
 neural,com.android.deskclock,1,894
 neural,com.android.deskclock,2,764
 neural,com.android.deskclock,3,798
@@ -101,11 +91,6 @@ walt,com.aurora.store,3,371
 walt,com.aurora.store,4,403
 walt,com.aurora.store,5,359
 walt,com.google.android.apps.bard,1,1316
-walt,com.tufan.bomber,1,942
-walt,com.tufan.bomber,2,92
-walt,com.tufan.bomber,3,102
-walt,com.tufan.bomber,4,94
-walt,com.tufan.bomber,5,75
 walt,com.primatelabs.geekbench6,1,975
 walt,com.primatelabs.geekbench6,2,1055
 walt,com.primatelabs.geekbench6,3,942
@@ -126,11 +111,6 @@ walt,org.proninyaroslav.libretorrent,2,549
 walt,org.proninyaroslav.libretorrent,3,526
 walt,org.proninyaroslav.libretorrent,4,517
 walt,org.proninyaroslav.libretorrent,5,531
-walt,com.lagradost.cloudstream3,1,559
-walt,com.lagradost.cloudstream3,2,530
-walt,com.lagradost.cloudstream3,3,515
-walt,com.lagradost.cloudstream3,4,510
-walt,com.lagradost.cloudstream3,5,514
 walt,com.android.deskclock,1,600
 walt,com.android.deskclock,2,605
 walt,com.android.deskclock,3,596
