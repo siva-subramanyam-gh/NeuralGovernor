@@ -67,7 +67,7 @@ int main() {
     double eps_decay = 0.9995;
     double min_eps = 0.01;
     
-    printf("--- Forging Universal Brain in C (%d Episodes) ---\n", EPISODES);
+    printf("--- Training(%d Episodes) ---\n", EPISODES);
     
     double profile[STEPS];
     double history[10];
@@ -155,7 +155,7 @@ int main() {
         }
     }
 
-    FILE *f = fopen("universal_brain.h", "w");
+    FILE *f = fopen("q_table_matrix.h", "w");
     if (f) {
         fprintf(f, "#ifndef Q_TABLE_MATRIX\n#define Q_TABLE_MATRIX_H\n\n");
         fprintf(f, "static const int q_table[%d][4] = {\n", MAX_STATES);
